@@ -55,7 +55,9 @@ fun ScreenMain() {
 
             //Setting screen, Pass the extracted Counter
             Setting(number = counter)
-
+        }
+        composable(Routes.Quotes.route){
+            Quotes()
         }
     }
 }
