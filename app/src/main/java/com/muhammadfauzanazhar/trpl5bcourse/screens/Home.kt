@@ -40,6 +40,9 @@ fun Home(navController: NavHostController){
             Button(onClick = { navController.navigate(Routes.Setting.route + "/$angka") }) {
                 Text(text = "Navigate to Settings", color = Color.White)
             }
+            Button(onClick = {navController.navigate(Routes.Quotes.route)},){
+                Text(text = "Navigate to Quote", color = Color.White)
+            }
         }
     }
 }
